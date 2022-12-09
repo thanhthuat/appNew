@@ -1,0 +1,21 @@
+@mixin reset-height {
+    line-height: initial;
+    height: initial;
+  }
+@import './App.scss';
+@import './detail.scss';
+@import './header.scss';
+@import './hero-slide.scss';
+@import './input.scss';
+@import './modal.scss';
+@import './movie-list.scss';
+@import './loading';
+@import './sidebar';
+@import './layout';
+@import './customer';
+@import './responsive';
+@import './datatable';
+@import'./icon';
+@import './country';
+@import './modalCustomer';
+@import './error'

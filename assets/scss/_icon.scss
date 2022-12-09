@@ -1,0 +1,47 @@
+.pm {
+  width: 24px;
+  height: 24px;
+  margin-right: 0;
+  display: inline-block;
+}
+//dashboard
+.pm-close12 {
+  width: 12px;
+  height: 12px;
+  background: url(/assets/icon/close12.png);
+  background-size: cover;
+}
+.pm-dashboard {
+  background-image: url(../icon/dashboard-unactive.svg);
+}
+a {
+  &:hover {
+    .pm-dashboard {
+      background-image: url(../icon/dashboard-active.svg);
+    }
+  }
+}
+.active {
+  .pm-dashboard {
+    background-image: url(../icon/dashboard-active.svg);
+  }
+}
+
+//Report
+.pm-report {
+  background-image: url(../icon/icon-report.png);
+}
+a {
+  &:hover {
+    .pm-report {
+      background-image: url(../icon/icon-report-active.png);
+    }
+  }
+}
+
+.active {
+  .pm-report {
+    background-image: url(../icon/icon-report-active.png);
+  }
+}
+//Settlement
